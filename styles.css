@@ -30,8 +30,6 @@ body {
 .related-items-gallery {
   position: relative;
   width: 100%;
-  overflow: hidden; /* Hide products outside the viewport */
-  height: 400px; /* Default height for larger screens */
 }
 
 .gallery {
@@ -90,9 +88,6 @@ body {
 
 /* Responsive Adjustments */
 @media (max-width: 1024px) {
-  .related-items-gallery {
-    height: 350px; /* Adjust height for tablets */
-  }
 
   .gallery-item {
     width: 48%;  /* Show 2 items per row on tablets */
@@ -100,9 +95,6 @@ body {
 }
 
 @media (max-width: 768px) {
-  .related-items-gallery {
-    height: 300px; /* Adjust height for smaller tablets or larger phones */
-  }
 
   .gallery-item {
     width: 48%;  /* Show 2 items per row */
@@ -110,9 +102,7 @@ body {
 }
 
 @media (max-width: 576px) {
-  .related-items-gallery {
-    height: 250px; /* Adjust height for small screens */
-  }
+
 
   .gallery-item {
     width: 100%;  /* Show 1 item per row on small screens */
