@@ -1,4 +1,7 @@
-for (let i = 0; i < document.querySelectorAll(".product-image"); i++) {
+const test = document.querySelectorAll(".product-image");
+
+for (let i = 0; i < test.length; i++) {
+    const img = test[i];
     img.addEventListener("mouseover", () => {
         img.style.transform = "scale(1.2)"; // Ελαφριά μεγέθυνση
     });
