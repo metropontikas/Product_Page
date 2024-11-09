@@ -30,6 +30,7 @@ body {
 .related-items-gallery {
   position: relative;
   width: 100%;
+  overflow: hidden; /* Hide products outside the viewport */
 }
 
 .gallery {
